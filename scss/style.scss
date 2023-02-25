@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Roboto+Slab:wght@800&display=swap');
+
+*{
+   text-decoration: none;
+}
+
+.background-footer{
+   background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 7%, rgba(82,94,198,1) 49%, rgba(253,45,45,1) 100%);
+}
+
+.background{
+   background: url(https://i2.wp.com/www.go2meca.com/wp-content/uploads/2015/07/ice_metro_swirl_lockscreen_by_snowince-d5t9cry.png?fit=1920%2C1200&ssl=1) ;
+   min-height: 110vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+
+.text{
+   padding: 10px;
+   color: #fff;
+   font-size: 3.2rem;
+}
+
+.paragraph{
+   color: #fff;
+   font-size: 1.2rem;
+   font-family: serif;
+}
+
+.card_paragraph{
+   text-align: left;
+}
+
+.icon{
+   font-size: 5rem;
+}
+
+.footer{
+   padding: 10px 30px;
+   text-align: center;
+   color: #fff;
+   font-size: 1.1rem;
+   .footer-social{
+      .footer-icon{
+         font-size: 1.8rem;
+         color: #fff;
+         padding: 16px 10px;
+         transition: .5s ease;
+      }
+      .footer-icon:hover{
+         color: #000;
+      }
+   }
+   .dev{
+      text-decoration: none;
+      color: #fff;   
+   }
+}
+
+.img{
+   width: 200px;
+}
+
+.about-text{
+   width: 50%;
+   padding: 10px;
+   padding-right: 90px;
+}
+
+.about-contnet{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@media only screen and (max-width: 1049px){
+   .about-contnet{
+      width: 100%;
+      flex-direction: column;
+      .about-text{
+         width: 100%;
+      }
+   } 
+}
+
+.about-icon{
+   font-size: 1.4rem;
+   padding: 10px;
+}
+
+.about-phone{
+   font-size: 1.1rem;
+   padding: 10px;
+}
+
+.developer{
+   text-decoration: none;
+   color: rgb(231, 231, 231);
+   &:hover{
+      color: #fff;
+   }
+}
+
+@media only screen and (max-width: 1049px){
+   .developer{
+      font-style: 1rem;
+   }
+
+   .text-display{
+      font-size: 1.7rem;
+   }
+
+   .content-x{
+      .header__logo{
+         width: 19%;
+      }
+      .header__logo1{
+         width: 29%;
+      }
+   }
+}
+
+.content-x{
+   display: flex;
+   justify-content: space-around;
+   box-sizing: border-box;
+   align-items: center;
+}
+
+.header__logo{
+   width: 100px;
+   height: 100px;
+}
+
+.header__logo1{
+   width: 200px;
+}
+
+
+
+
+
